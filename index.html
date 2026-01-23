@@ -7,7 +7,7 @@
     <title>Ercava Iconography Center</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:italic,wght@700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:italic,wght@700&family=Roboto+Mono:wght@400;700&display=swap"
         rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -22,6 +22,7 @@
                     fontFamily: {
                         sans: ['Montserrat', 'sans-serif'],
                         serif: ['Playfair Display', 'serif'],
+                        mono: ['Roboto Mono', 'monospace'],
                     }
                 }
             }
@@ -208,8 +209,8 @@
 
     <div class="max-w-6xl mx-auto px-6 py-20 relative z-10">
         <header class="text-center mb-20">
-            <p class="font-serif italic text-2xl text-ercava-charcoal mb-4">Welcome to,</p>
-            <h1 class="font-serif text-6xl font-bold tracking-tight uppercase mb-4">Ercava Iconography Center</h1>
+            <p class="font-mono text-2xl text-ercava-charcoal mb-4">Welcome to,</p>
+            <h1 class="font-mono text-6xl font-bold tracking-tight uppercase mb-4">Ercava Iconography Center</h1>
             <p class="max-w-2xl mx-auto text-sm text-slate-500 font-medium leading-relaxed">
                 A central platform providing access to a catalog of Ercava-related iconography and artworks.
             </p>
@@ -263,7 +264,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
                     </svg>
                 </button>
-                <h3 class="text-xs font-bold uppercase tracking-[0.3em] text-slate-400 m-0">02. Artwork Showcase</h3>
+                <h3 class="text-xs font-bold uppercase tracking-[0.3em] text-slate-400 m-0">Artwork Showcase</h3>
                 <button onclick="scrollCarousel('artworkCarousel', 344)" class="nav-button squishy">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
                         stroke="currentColor">
@@ -277,7 +278,7 @@
                     <div
                         class="reveal-card snap-center shrink-0 w-80 bg-white p-4 rounded-2xl shadow-lg border border-slate-100">
                         <img src="assets/erc/Kapal_Comet.png" class="rounded-xl mb-4 h-48 w-full object-cover">
-                        <p class="font-bold text-sm">Kapal Comet </p>
+                        <p class="font-bold text-sm">Kapal Comet</p>
                     </div>
                     <div
                         class="reveal-card snap-center shrink-0 w-80 bg-white p-4 rounded-2xl shadow-lg border border-slate-100">
@@ -395,40 +396,40 @@
                         </div>
                     </div>
                     <div class="grid grid-cols-4 sm:grid-cols-6 lg:grid-cols-4 gap-2">
-                        <img onclick="updateGallery3('KEMENAG', 'Official Ministry Logo', 'assets/ic/KEMENAG.png')"
+                        <img onclick="updateGallery3('KEMENAG', 'Official Ministry of Religious Affairs Logo', 'assets/ic/KEMENAG.png')"
                             src="assets/ic/KEMENAG.png"
                             class="h-12 w-12 p-1 border rounded-lg bg-white cursor-pointer object-contain hover:border-ercava-dark transition">
-                        <img onclick="updateGallery3('MANICS BASE', 'Standard Organization Logo', 'assets/ic/MANICS BASE.png')"
+                        <img onclick="updateGallery3('MANICS', 'Standard Official Logo', 'assets/ic/MANICS BASE.png')"
                             src="assets/ic/MANICS BASE.png"
                             class="h-12 w-12 p-1 border rounded-lg bg-white cursor-pointer object-contain hover:border-ercava-dark transition">
-                        <img onclick="updateGallery3('SLC', 'SLC ORGANIZATION LOGO', 'assets/ic/SLC.png')"
+                        <img onclick="updateGallery3('SLC', 'STUDENT LIBRARIAN CLUB LOGO', 'assets/ic/SLC.png')"
                             src="assets/ic/SLC.png"
                             class="h-12 w-12 p-1 border rounded-lg bg-white cursor-pointer object-contain hover:border-ercava-dark transition">
-                        <img onclick="updateGallery3('MANICS MINI', 'Iconic Miniature Version', 'assets/ic/MANICS-MINI.png')"
+                        <img onclick="updateGallery3('MANICS COMPRESSED', 'MINIATURIZED LOGO', 'assets/ic/MANICS-MINI.png')"
                             src="assets/ic/MANICS-MINI.png"
                             class="h-12 w-12 p-1 border rounded-lg bg-white cursor-pointer object-contain hover:border-ercava-dark transition">
-                        <img onclick="updateGallery3('CBC', 'CBC ORGANIZATION LOGO', 'assets/ic/CBC.png')"
+                        <img onclick="updateGallery3('CBC', 'CENDEKIA BROADCASTING CLUB LOGO', 'assets/ic/CBC.png')"
                             src="assets/ic/CBC.png"
                             class="h-12 w-12 p-1 border rounded-lg bg-white cursor-pointer object-contain hover:border-ercava-dark transition">
-                        <img onclick="updateGallery3('CHOIR', 'CHOIR UNIT LOGO', 'assets/ic/CHOIR.png')"
+                        <img onclick="updateGallery3('CHOIR', 'CHOIR EXTRACULLICULAR LOGO', 'assets/ic/CHOIR.png')"
                             src="assets/ic/CHOIR.png"
                             class="h-12 w-12 p-1 border rounded-lg bg-white cursor-pointer object-contain hover:border-ercava-dark transition">
-                        <img onclick="updateGallery3('FLP', 'FLP ORGANIZATION LOGO', 'assets/ic/FLP.jpg')"
+                        <img onclick="updateGallery3('FLP', 'FORUM LINGKAR PENA LOGO', 'assets/ic/FLP.jpg')"
                             src="assets/ic/FLP.jpg"
                             class="h-12 w-12 p-1 border rounded-lg bg-white cursor-pointer object-contain hover:border-ercava-dark transition">
-                        <img onclick="updateGallery3('HADROH', 'HADROH UNIT LOGO', 'assets/ic/HADROH.jpg')"
+                        <img onclick="updateGallery3('HADROH', 'HADROH EXTRACULLICULAR LOGO', 'assets/ic/HADROH.jpg')"
                             src="assets/ic/HADROH.jpg"
                             class="h-12 w-12 p-1 border rounded-lg bg-white cursor-pointer object-contain hover:border-ercava-dark transition">
                         <img onclick="updateGallery3('MPS CENDEKIA', 'MPS CENDEKIA LOGO', 'assets/ic/MPS CENDEKIA.png')"
                             src="assets/ic/MPS CENDEKIA.png"
                             class="h-12 w-12 p-1 border rounded-lg bg-white cursor-pointer object-contain hover:border-ercava-dark transition">
-                        <img onclick="updateGallery3('OS CENDEKIA', 'OS CENDEKIA LOGO', 'assets/ic/OS CENDEKIA.png')"
+                        <img onclick="updateGallery3('OS CENDEKIA', 'STUDENT COUNCIL LOGO', 'assets/ic/OS CENDEKIA.png')"
                             src="assets/ic/OS CENDEKIA.png"
                             class="h-12 w-12 p-1 border rounded-lg bg-white cursor-pointer object-contain hover:border-ercava-dark transition">
-                        <img onclick="updateGallery3('PACIFIC', 'PACIFIC UNIT LOGO', 'assets/ic/PACIFIC.png')"
+                        <img onclick="updateGallery3('PACIFIC', 'SCOUTS CLUB LOGO', 'assets/ic/PACIFIC.png')"
                             src="assets/ic/PACIFIC.png"
                             class="h-12 w-12 p-1 border rounded-lg bg-white cursor-pointer object-contain hover:border-ercava-dark transition">
-                        <img onclick="updateGallery3('RDC', 'RDC UNIT LOGO', 'assets/ic/RDC.png')"
+                        <img onclick="updateGallery3('RDC', 'RHETORIC DEBATE CLUB LOGO', 'assets/ic/RDC.png')"
                             src="assets/ic/RDC.png"
                             class="h-12 w-12 p-1 border rounded-lg bg-white cursor-pointer object-contain hover:border-ercava-dark transition">
                     </div>
@@ -450,7 +451,7 @@
                     <div>
                         <h2 id="orgTitle" class="text-2xl font-bold mb-2">OS Black</h2>
                         <p id="orgDesc" class="text-xs text-ercava-charcoal mb-8 uppercase tracking-widest font-bold">
-                            CHARCOAL BLACK MARK</p>
+                            FOR LIGHT BACKGROUND</p>
                         <div class="space-y-3 mb-10">
                             <a id="orgPng" href="#"
                                 class="block w-full text-center py-3 bg-ercava-dark text-white rounded-xl font-bold text-xs tracking-widest hover:bg-black transition squishy">DOWNLOAD
@@ -590,7 +591,7 @@
         <div class="max-w-6xl mx-auto relative z-10">
             <div class="grid grid-cols-1 lg:grid-cols-4 gap-16">
                 <div class="lg:col-span-3">
-                    <h2 class="font-serif text-3xl font-bold mb-6 italic tracking-tight">Ercava Iconography Center</h2>
+                    <h2 class="font-mono text-3xl font-bold mb-6 italic tracking-tight">Ercava Iconography Center</h2>
 
                     <p class="text-sm text-slate-400 max-w-2xl leading-relaxed mb-6">
                         This center serves as a platform for the public to explore and utilize iconographies related to
@@ -632,7 +633,7 @@
                         requests? Just hit us up!</h3>
                     <ul class="space-y-6 text-xs font-bold tracking-widest uppercase">
                         <li>
-                            <a href="https://instagram.com/" target="_ercava29"
+                            <a href="https://instagram.com/@ercava29" target="_ercava29"
                                 class="text-slate-400 hover:text-white transition-colors flex items-center gap-3 group">
                                 <span
                                     class="w-1 h-1 bg-ercava-charcoal rounded-full group-hover:bg-white transition-colors"></span>
